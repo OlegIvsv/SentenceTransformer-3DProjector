@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace sigma_pract
 {
-    class Projector
+    public static class Projector
     {
         public static (int[,], int[,], int[,]) FindShadows(int[,,] input)
         {
